@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using PetShop;
 
 namespace PetShop
 {
@@ -17,6 +18,8 @@ namespace PetShop
         public MainForm(string role)
         {
             InitializeComponent();
+            SessionManager.Initialize(this);
+
             this.role = role;
         }
 

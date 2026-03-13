@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using PetShop;
 
 namespace PetShop
 {
@@ -15,6 +16,7 @@ namespace PetShop
         public ManagerForm()
         {
             InitializeComponent();
+            SessionManager.Initialize(this);
         }
 
         private void btnOrders_Click(object sender, EventArgs e)
