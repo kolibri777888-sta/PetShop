@@ -189,6 +189,7 @@
     <Compile Include="RolesForm.Designer.cs">
       <DependentUpon>RolesForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="SessionManager.cs" />
     <Compile Include="StorekeeperForm.cs">
       <SubType>Form</SubType>
     </Compile>
